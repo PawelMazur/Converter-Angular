@@ -1,0 +1,52 @@
+<h2>Length Converter</h2>
+<p>Type a value in the Meters field to convert the value to </p>
+
+<p>
+  <label><strong>Meters : </strong> </label>  
+  <input id="inputMeters" type="number" placeholder="Meters"
+  (keyup)="meterConverter($event)" [value]="m">
+</p>
+
+<p>
+  <label><strong>Cm : </strong></label>
+  <input id="inputCm" type="number"
+  placeholder="Cm"
+  (keyup)="cmConverter($event)" [value]="cm">
+</p>
+
+<p>
+  <label><strong>Kilometers : </strong></label>
+  <input id="inputKilometers : " type="number"
+  placeholder="Kilometers"
+  (keyup)="kmConverter($event)" [value]="km">
+</p>
+
+<p>
+  <label><strong>Feed : </strong></label>
+  <input id="inputFeed : " type="number"
+  placeholder="Feed"
+  (keyup)="feedConverter($event)" [value]="feed">
+</p>
+
+<p>
+  <label><strong>Inches : </strong></label>
+  <input id="inputInches : " type="number"
+  placeholder="Inches"
+  (keyup)="inchesConverter($event)" [value]="inches">
+</p>
+
+<p>
+  <label><strong>Yards : </strong></label>
+  <input id="inputYards : " type="number"
+  placeholder="Yards"
+  (keyup)="yardConverter($event)" [value]="yards">
+</p>
+
+<p>
+  <label><strong>Miles : </strong></label>
+  <input id="inputMiles: " type="number"
+  placeholder="Miles"
+  (keyup)="milesConverter($event)" [value]="miles">
+</p>
+
+

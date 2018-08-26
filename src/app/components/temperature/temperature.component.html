@@ -1,0 +1,26 @@
+<h2>Temperature Converter</h2>
+<p>Type a value in the Temperature field to convert the value to </p>
+
+<p>
+    <label><strong>Celsius : </strong></label>
+    <input id="inputCelsius" type="number"
+    placeholder="Celsius"
+    (keyup)="celsiusConverter($event)" [value]="celsius">
+  </p>
+
+<p>
+  <label><strong>Fahrenheit : </strong> </label>  
+  <input id="inputFahrenheit" type="number" 
+  placeholder="Fahrenheit"
+  (keyup)="fahrenheitConverter($event)" [value]="fahrenheit">
+</p>
+
+<p>
+  <label><strong>Kelvin : </strong></label>
+  <input id="inputKelvin" type="number"
+  placeholder="Kelvin"
+  (keyup)="kelvinConverter($event)" [value]="kelvin">
+</p>
+
+
+

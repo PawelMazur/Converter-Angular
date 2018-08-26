@@ -1,0 +1,33 @@
+<h2> Speed Converter</h2>
+<p>Type a value in the MPH field to covert the value to KPH :</p>
+
+<p>
+  <label><strong>MPH</strong></label>
+  <input id="inputMPH" type="number" 
+    placeholder="MPH"
+    (keyup)="MPHConverter($event)" [value]="MPH">
+</p>
+
+<p>
+  <label><strong>KPH</strong></label>
+  <input id="inputKPH" type="number" 
+    placeholder="KPH"
+    (keyup)="KPHConverter($event)" [value]="KPH">
+</p>
+
+<p>
+  <label><strong>Knots : </strong></label>
+  <input id="inputknots : " type="number"
+  placeholder="Knots"
+  (keyup)="knotsConverter($event)" [value]="knots">
+</p>
+
+<p>
+  <label><strong>Mach : </strong></label>
+  <input id="inputYards : " type="number"
+  placeholder="Mach"
+  (keyup)="machConverter($event)" [value]="mach">
+</p>
+
+
+

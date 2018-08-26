@@ -1,0 +1,38 @@
+<h2>Kilograms Converter</h2>
+<p>Type a value in the Kilograms field to convert the value to </p>
+
+<p>
+  <label><strong>Kilograms : </strong> </label>  
+  <input id="inputKilograms" type="number" 
+  placeholder="Kilograms"
+  (keyup)="kgConverter($event)" [value]="kg">
+</p>
+
+<p>
+  <label><strong>Grams : </strong></label>
+  <input id="inputGrams" type="number"
+  placeholder="Grams"
+  (keyup)="gramsConverter($event)" [value]="grams">
+</p>
+
+<p>
+  <label><strong>Pounds : </strong></label>
+  <input id="inputPounds : " type="number"
+  placeholder="Pounds"
+  (keyup)="poundsConverter($event)" [value]="pounds">
+</p>
+
+<p>
+  <label><strong>Ounces : </strong></label>
+  <input id="inputOunces : " type="number"
+  placeholder="Ounces"
+  (keyup)="ouncesConverter($event)" [value]="ounces">
+</p>
+
+<p>
+  <label><strong>Stones : </strong></label>
+  <input id="inputStones : " type="number"
+  placeholder="Stones"
+  (keyup)="stonesConverter($event)" [value]="stones">
+</p>
+
